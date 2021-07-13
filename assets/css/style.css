@@ -1,0 +1,43 @@
+/*Colors*/
+
+/*Headings*/
+
+.section-heading {
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: gray;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grey-text {
+    color: gray;
+}
+
+/*Navigation*/
+
+.navbar-custom {
+     background-color: #B19552;
+}
+
+.company-name {
+    font-family: "Roboto Condensed", sans-serif; 
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin-bottom: 1%;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-nav {
+    font-family: "Roboto Condensed", sans-serif; 
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
