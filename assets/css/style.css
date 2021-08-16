@@ -49,11 +49,12 @@ body {
     letter-spacing: 0.1em;
 }
 
+/*First page*/
 
 .hero-image {
-    background: url("../images/kugghjul_xl.jpg") no-repeat center center;  
+    background: url("../images/kugghjul_mobil.jpg") no-repeat center center;  
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -78,7 +79,7 @@ body {
 .call-out-heading {
     color:white;
     font-family: "Roboto Light", sans-serif; 
-    font-size: 60px;
+    font-size: 30px;
     letter-spacing: 0.1em;
 }
 
@@ -94,5 +95,76 @@ body {
 
 .blue-color {
     background-color: #002A38;
+}
+
+/*Media queries*/
+
+@media only screen and (min-width:768px) {
+    .hero-image {
+        background: url("../images/kugghjul_xl.jpg") no-repeat center center;  
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+    }
+
+    .call-out-heading {
+        color:white;
+        font-family: "Roboto Light", sans-serif; 
+        font-size: 60px;
+        letter-spacing: 0.1em;
+    }
+
+}
+
+@media only screen and (device-width: 280px)
+    and (device-height: 653px) {
+    .call-out-heading {
+        font-size: 22px;  
+    }
+}
+
+@media only screen and (device-width: 653px)
+    and (device-height: 280px) {
+    .hero-image {
+        height: 81vh;
+    }
+}
+
+@media only screen and (device-width: 823px)
+    and (device-height: 411px) {
+
+    .call-out-heading {
+        font-size: 40px;  
+        }
+
+    .hero-image {
+        height: 60vh;
+    }
+}
+
+@media only screen and (device-width: 731px)
+    and (device-height: 411px) {
+
+    .call-out-heading {
+        font-size: 40px;  
+        }
+
+}
+
+@media only screen and (device-width: 812px)
+    and (device-height: 375px) {
+
+    .call-out-heading {
+        font-size: 40px;  
+    }
+
+    .hero-image {
+        height: 60vh;
+    }
+
 }
 
