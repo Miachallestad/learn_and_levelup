@@ -1,4 +1,7 @@
 /*Colors*/
+.blue-background {
+    background-color: #002A38;
+}
 
 /*Headings*/
 
@@ -12,13 +15,19 @@
 h1 {
     font-family: "Roboto", sans-serif; 
     color: #895536;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.1em;
 }
 
 p {
     font-family: "Roboto light", sans-serif; 
     color: black;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: "Roboto Condensed", sans-serif;  
+    color:white;
     font-size: 16px;
 }
 
@@ -89,19 +98,11 @@ body {
     letter-spacing: 0.1em;
 }
 
-.teaser-background-container {
-    background: #F7F7F5;
-    height: 100vh;
+.btn-outline-primary {
+    color:#895536;
+    border-color:#895536;
 }
 
-.test-color {
-    background-color: grey;
-    height: 33vh;
-}
-
-.blue-color {
-    background-color: #002A38;
-}
 
 /*Media queries*/
 
@@ -145,6 +146,10 @@ body {
 
     .hero-image {
         height: 50vh;
+    }
+
+    p {
+        font-size: 14px;
     }
 
 }
