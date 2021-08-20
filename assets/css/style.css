@@ -98,6 +98,10 @@ body {
     letter-spacing: 0.1em;
 }
 
+.teaser-heading-container {
+    height: 24vh;
+}
+
 .btn-outline-primary {
     color:#895536;
     border-color:#895536;
