@@ -1,6 +1,7 @@
 /*Colors*/
 .blue-background {
     background-color: #002A38;
+    min-height: 23vh;
 }
 
 /*Headings*/
@@ -15,7 +16,7 @@
 h1 {
     font-family: "Roboto", sans-serif; 
     color: #895536;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 0.1em;
 }
 
@@ -28,7 +29,8 @@ p {
 h2 {
     font-family: "Roboto Condensed", sans-serif;  
     color:white;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 0.1em;
 }
 
 body {
