@@ -158,6 +158,26 @@ body {
     }
 }
 
+@media only screen and (min-width:375px) {
+    h1 {
+        font-family: "Roboto", sans-serif; 
+        color: #895536;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+    }
+
+    h2 {
+        font-family: "Roboto Condensed", sans-serif;  
+        color:white;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (device-width: 280px)
     and (device-height: 653px) {
     .call-out-heading {
@@ -174,6 +194,23 @@ body {
 
 }
 
+@media only screen and (device-width: 653px)
+    and (device-height: 280px) {
+    .hero-image {
+        height: 81vh;
+    }
+
+    .teaser-heading-container {
+        height: 50vh;
+    }
+
+    .blue-background {
+        background-color: #002A38;
+        min-height: 45vh;
+    }
+
+}
+
 @media only screen and (device-width: 320px)
     and (device-height: 568px) {
     .call-out-heading {
@@ -181,16 +218,146 @@ body {
     }
 
     .hero-image {
-        height: 50vh;
+        height: 56vh;
+    }
+
+    .teaser-heading-container {
+        height: 35vh;
     }
 
 }
 
-@media only screen and (device-width: 653px)
-    and (device-height: 280px) {
+@media only screen and (device-width: 568px)
+    and (device-height: 320px) {
+
     .hero-image {
-        height: 81vh;
+        height: 49vh;
     }
+
+    .teaser-heading-container {
+        height: 35vh;
+    }
+
+    h2 {
+        font-family: "Roboto Condensed", sans-serif;  
+        color:white;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .blue-background {
+        background-color: #002A38;
+        min-height: 45vh;
+    }
+
+}
+
+@media only screen and (device-width: 360px)
+    and (device-height: 640px) {
+    .hero-image {
+        height: 65vh;
+    }
+
+    .teaser-heading-container {
+        height: 27vh;
+    }
+}
+
+@media only screen and (device-width: 411px)
+    and (device-height: 731px) {
+    .hero-image {
+        height: 65vh;
+    }
+
+    .teaser-heading-container {
+        height: 29vh;
+    }
+}
+
+@media only screen and (device-width: 731px)
+    and (device-height: 411px) {
+    .hero-image {
+        height: 58vh;
+    }
+
+    .teaser-heading-container {
+        height: 29vh;
+    }
+
+    .blue-background {
+        background-color: #002A38;
+        min-height: 38vh;
+    }
+}
+
+@media only screen and (device-width: 411px)
+    and (device-height: 823px) {
+    .hero-image {
+        height: 64vh;
+    }
+
+    .teaser-heading-container {
+        height: 30vh;
+    }
+
+    h1 {
+        font-family: "Roboto", sans-serif; 
+        color: #895536;
+        font-size: 22px;
+        letter-spacing: 0.1em;
+    }
+}
+
+@media only screen and (device-width: 823px)
+    and (device-height: 411px) {
+
+    .call-out-heading {
+        font-size: 35px;  
+        }
+
+    .hero-image {
+        height: 57vh;
+    }
+
+    .teaser-heading-container {
+        height: 30vh;
+    }
+}
+
+
+@media only screen and (device-width: 640px)
+    and (device-height: 360px) {
+    .hero-image {
+        height: 52vh;
+    }
+
+    .teaser-heading-container {
+        height: 35vh;
+    }
+
+    h1 {
+        font-family: "Roboto", sans-serif; 
+        color: #895536;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+    }
+
+    .blue-background {
+        background-color: #002A38;
+        min-height: 45vh;
+    }
+
+    h2 {
+        font-family: "Roboto Condensed", sans-serif;  
+        color:white;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+  
 }
 
 @media only screen and (device-width: 667px)
@@ -231,17 +398,6 @@ body {
 
 }
 
-@media only screen and (device-width: 823px)
-    and (device-height: 411px) {
-
-    .call-out-heading {
-        font-size: 35px;  
-        }
-
-    .hero-image {
-        height: 55vh;
-    }
-}
 
 @media only screen and (device-width: 1366px)
     and (device-height: 1024px) {
