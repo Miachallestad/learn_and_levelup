@@ -142,6 +142,11 @@ body {
         font-size: 18px;
     }
 
+    .blue-background {
+        background-color: #002A38;
+        min-height: 15vh;
+    }
+
 }
 
 @media only screen and (min-width:992px) {
