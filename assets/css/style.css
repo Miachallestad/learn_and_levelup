@@ -31,6 +31,13 @@ h2 {
     color:white;
     font-size: 15px;
     letter-spacing: 0.1em;
+} 
+
+h3 {
+    font-family: "Roboto Light", sans-serif;  
+    color:#895536;
+    font-size: 20px;
+    letter-spacing: 0.1em;
 }
 
 body {
@@ -107,6 +114,11 @@ body {
 .btn-outline-primary {
     color:#895536;
     border-color:#895536;
+}
+
+.icon-styling {
+    font-size: 50px;
+    color: #895536;
 }
 
 
@@ -501,6 +513,16 @@ body {
 
     .teaser-heading-container {
         height: 23vh;
+    }
+
+    h1 {
+        font-family: "Roboto", sans-serif; 
+        color: #895536;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+    p {
+        font-size: 16px;
     }
 }
 
