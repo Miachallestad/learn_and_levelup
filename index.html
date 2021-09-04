@@ -8,6 +8,7 @@
     <style>@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@300&family=Roboto+Condensed:wght@300;700&family=Roboto:wght@100;300;400;700&display=swap');
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 <body>
@@ -24,16 +25,16 @@
                     <a class="nav-link" href="#">Hem <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="#">E-learning</a>
+                    <a class="nav-link" href="elearning.html">E-learning</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Video</a>
+                    <a class="nav-link" href="video.html">Video</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Portaler</a>
+                    <a class="nav-link" href="portaler.html">Portaler</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Om företaget</a>
+                    <a class="nav-link" href="om_företaget.html">Om företaget</a>
                 </li>
                 <li class="nav-item px-3">
                     <a class="nav-link" href="#">Kontakt</a>
@@ -122,14 +123,14 @@
     </div>
 
     <!-- Produkter & tjänster --------------------------------------------------->
-    <div class="container-fluid products-services-container pl-0 pr-0 no-gutters">
-        <div class="row pl-0 pr-0 no-gutters pt-3 pb-3 pt-md-5 pb-md-5">
+    <div class="container-fluid products-services-background pl-0 pr-0 no-gutters">
+        <div class="row pl-0 pr-0 no-gutters pt-3 pb-3 pt-md-5 pb-md-3">
             <div class="col pt-5 pb-5">
-                <div class="row pl-0 pr-0 no-gutters pt-md-5 pb-md-5">
+                <div class="row pl-0 pr-0 no-gutters">
                     <div class="col">
                         <div class="row pl-0 pr-0 no-gutters">
                             <div class="col d-flex justify-content-center">
-                                <h3 class="text-uppercase">Produkter & tjänster</h3>
+                                <h1 class="section-heading text-uppercase pb-md-3">Produkter & tjänster</h1>
                             </div>
                         </div>
                         <div class="row pl-0 pr-0 no-gutters justify-content-center pt-5 pb-5">
@@ -138,22 +139,54 @@
                                     <div class="col text-center">
                                         <i class="fas fa-desktop icon-styling"></i>
                                         <h3 class="pt-4 text-uppercase">E-learning</h3>
+                                        <ul class="list-unstyled text-color-cognac">
+                                            <li>Nyproduktion</li>
+                                            <li>Uppdateringar</li>
+                                            <li>Digitalisering av utb.</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-primary btn-md rounded-0 text-uppercase py-0 py-sm-1 px-4 py-md-1 px-md-4">Mer info</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="row pl-0 pr-0 no-gutters">
                                     <div class="col text-center">
-                                        <i class="fas fa-film icon-styling"></i>
+                                        <i class="fas fa-photo-video icon-styling"></i>
                                         <h3 class="pt-4 text-uppercase">Video</h3>
+                                        <ul class="list-unstyled text-color-cognac">
+                                            <li>Animationer</li>
+                                            <li>Videoscribe</li>
+                                            <li>Live</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-primary btn-lg rounded-0 text-uppercase py-0 py-sm-1 px-4 py-md-1 px-md-5">Mer info</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="row pl-0 pr-0 no-gutters">
                                     <div class="col text-center">
-                                        <i class="fab fa-microsoft icon-styling"></i>
+                                        <i class="fab fa-hubspot icon-styling"></i>
                                         <h3 class="pt-4 text-uppercase">Microsoft 365</h3>
+                                        <ul class="list-unstyled text-color-cognac">
+                                            <li>Samarbeta & dela</li>
+                                            <li>Onboarding</li>
+                                            <li>Intranät</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-primary btn-lg rounded-0 text-uppercase py-0 py-sm-1 px-4 py-md-1 px-md-5">Mer info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row pl-0 pr-0 no-gutters">
+                                    <div class="col text-center">
+                                        <i class="fas fa-plane-departure icon-styling"></i>
+                                        <h3 class="pt-4 text-uppercase">Onboarding</h3>
+                                        <ul class="list-unstyled text-color-cognac">
+                                            <li>Innehåll</li>
+                                            <li>E-learning</li>
+                                            <li>System</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-primary btn-lg rounded-0 text-uppercase py-0 py-sm-1 px-4 py-md-1 px-md-5">Mer info</button>
                                     </div>
                                 </div>
                             </div>
@@ -163,5 +196,74 @@
             </div>
         </div>
     </div>
+    <!-- Kontakt & besök --------------------------------------------------->
+    <div class="container-fluid contact-and-visit-container pl-0 pr-0 no-gutters mb-5">
+        <div class="row pl-0 pr-0 no-gutters justify-content-center">
+            <div class="col-10">
+                <div class="row pt-md-5">
+                    <div class="col-md-4 pt-md-4">
+                        <div class="row">
+                            <div class="col contact-information">
+                                <h1 class="section-heading text-uppercase text-color-white pt-5">Kontakt</h1>
+                                <ul class="list-unstyled text-color-white call-to-action-icon pb-5">
+                                    <li class="text-uppercase">Learn & leavel up</li>
+                                    <li>Hällestad Åsa</li>
+                                    <li>521 53 Floby</li>
+                                    <li><i class="fas fa-phone-alt pr-md-3 pt-md-3"></i>+46(0)739-67 92 67</li>
+                                    <li><i class="fas fa-envelope pr-md-3 pt-md-2"></i>maria@learnandlevelup.se</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 pt-md-3">
+                        <h1 class="section-heading text-uppercase pb-md-3">Besök</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid pl-0 pr-0 no-gutters blue-background">
+        <div class="row pt-5 pb-5 pl-0 pr-0 no-gutters justify-content-center">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-md-3 pt-4">
+                        <h3 class="text-uppercase text-color-white">Kontakt</h3>
+                        <ul class="list-unstyled text-color-white call-to-action-icon">
+                            <li class="text-uppercase">Learn & leavel up</li>
+                            <li>Hällestad Åsa</li>
+                            <li>521 53 Floby</li>
+                            <li><i class="fas fa-phone-alt pr-md-3 pt-md-3"></i>+46(0)739-67 92 67</li>
+                            <li><i class="fas fa-envelope pr-md-3 pt-md-2"></i>maria@learnandlevelup.se</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 pt-4">
+                        <h3 class="text-uppercase text-color-white">Besök</h3>
+                        <ul class="list-unstyled text-color-white">
+                            <li class="text-uppercase">CWFKP</li>
+                            <li>Bangatan 6</li>
+                            <li>521 43 Falköping</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 pt-4 text-uppercase">
+                        <h3 class="text-color-white">Innehåll</h3>
+                        <ul class="list-unstyled text-color-white">
+                            <li>E-learning</li>
+                            <li>Video</li>
+                            <li>Portaler</li>
+                            <li>Om företaget</li>
+                            <li>Kontakt</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 pt-4">
+                        <h3 class="text-uppercase text-color-white">Följ</h3>
+                        <li class="nav-item list-inline-item mt-2">
+                        <a href="https://www.linkedin.com/in/mariakarlsson222/" target="_blank" class="pr-1 social-links"><i class="fab fa-linkedin-in p-2" aria-hidden="true"></i>
+                        <span class="sr-only">Link to Linkedin</span></a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </footer>
 </body>
 </html>

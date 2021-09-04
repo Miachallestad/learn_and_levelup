@@ -7,10 +7,10 @@
 /*Headings*/
 
 .section-heading {
+    font-family: "Roboto", sans-serif; 
     font-size: 40px;
-    font-weight: 300;
     letter-spacing: 0.1rem;
-    color: gray;
+    color: #895536;
 }
 
 h1 {
@@ -34,19 +34,35 @@ h2 {
 } 
 
 h3 {
-    font-family: "Roboto Light", sans-serif;  
+    font-family: "Roboto", sans-serif;  
     color:#895536;
     font-size: 20px;
     letter-spacing: 0.1em;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Light', sans-serif;
 }
 
-.grey-text {
-    color: gray;
+.footer-text {
+    font-family: 'Roboto Light', sans-serif;
 }
+
+.text-color-cognac {
+    color: #895536;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #895536;
+    border-color: #895536;
+}
+    
+
+
 
 /*Navigation*/
 
@@ -116,8 +132,43 @@ body {
     border-color:#895536;
 }
 
+/*Products % services*/
+
 .icon-styling {
     font-size: 50px;
+    color: #895536;
+}
+
+.products-services-background {
+    background-color: #F7F7F5;
+}
+
+/*Contact & visit*/
+
+.contact-and-visit-container {
+    background-color: white;
+    height: 50vh;
+}
+
+.contact-information {
+    background-color: #895536;
+
+}
+
+/*Footer*/
+
+.social-links i {
+    font-size: 27px;
+    color: #0A66C2;
+    background-color: white;
+    border-radius: 0%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover {
     color: #895536;
 }
 
