@@ -198,6 +198,16 @@ body {
     }
 }
 
+@media only screen and (min-width:320px) {
+    .block-divider {
+        width: 265px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (min-width:375px) {
     h1 {
         font-family: "Roboto", sans-serif; 
@@ -218,7 +228,7 @@ body {
     }
 
     .block-divider {
-        width: 280px;
+        width: 275px;
     }
 }
 
@@ -317,6 +327,10 @@ body {
 
     .teaser-heading-container {
         height: 35vh;
+    }
+
+    .block-divider {
+        width: 235px;
     }
 
 }
@@ -489,6 +503,12 @@ body {
     .teaser-heading-container {
         height: 29vh;
     }
+
+   
+    .block-divider {
+        width: 300px;
+    }
+    
 }
 
 @media only screen and (device-width: 731px)
@@ -507,6 +527,14 @@ body {
     }
 }
 
+@media only screen and (device-width: 411px)
+    and (device-height: 823px) {
+        .block-divider {
+            width: 300px;
+        }
+
+    }
+
 @media only screen and (device-width: 414px)
     and (device-height: 736px) {
     .hero-image {
@@ -515,6 +543,10 @@ body {
 
     .teaser-heading-container {
         height: 29vh;
+    }
+
+    .block-divider {
+        width: 313px;
     }
 }
 
@@ -660,6 +692,10 @@ body {
 
     p {
         font-size: 24px;
+    }
+
+    .block-divider {
+        width: 600px;
     }
 
 }
