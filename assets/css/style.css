@@ -155,6 +155,19 @@ body {
 
 }
 
+/*E-learning | benefits*/
+.block-divider {
+    width: 200px;
+    height: 2px;
+    border: 0;
+    background-color: #895536;
+}
+
+.icon-styling-benefits-elearning {
+    font-size: 70px;
+    color: #895536;
+}
+
 /*Footer*/
 
 .social-links i {
@@ -174,6 +187,40 @@ body {
 
 
 /*Media queries*/
+
+@media only screen and (min-width:320px) {
+    .block-divider {
+        width: 230px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:375px) {
+    h1 {
+        font-family: "Roboto", sans-serif; 
+        color: #895536;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+    }
+
+    h2 {
+        font-family: "Roboto Condensed", sans-serif;  
+        color:white;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .block-divider {
+        width: 280px;
+    }
+}
 
 @media only screen and (min-width:768px) {
     .hero-image {
@@ -221,25 +268,9 @@ body {
     }
 }
 
-@media only screen and (min-width:375px) {
-    h1 {
-        font-family: "Roboto", sans-serif; 
-        color: #895536;
-        font-size: 20px;
-        letter-spacing: 0.1em;
-    }
 
-    h2 {
-        font-family: "Roboto Condensed", sans-serif;  
-        color:white;
-        font-size: 18px;
-        letter-spacing: 0.1em;
-    }
 
-    p {
-        font-size: 18px;
-    }
-}
+
 
 @media only screen and (device-width: 280px)
     and (device-height: 653px) {
@@ -560,6 +591,10 @@ body {
 
     .hero-image {
         height: 70vh;
+    }
+
+    .block-divider {
+        width: 415px;
     }
 
     .teaser-heading-container {
