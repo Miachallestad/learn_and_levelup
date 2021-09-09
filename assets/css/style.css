@@ -136,24 +136,37 @@ body {
 
 .icon-styling {
     font-size: 50px;
-    color: #895536;
+    color: #002A38;
 }
 
 .products-services-background {
     background-color: #F7F7F5;
 }
 
+.products-services-icon-background {
+    background-color: #002A38;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
 /*Contact & visit*/
 
 .contact-and-visit-container {
-    background-color: white;
-    height: 50vh;
+    background-color:white;
+    height: 100vh;
 }
 
 .contact-information {
     background-color: #895536;
-    width: 61%;
+    width: 65%;
+}
 
+.visit-information {
+    background-color: #002A38;
+    width: 65%;
+    height: 425px;
 }
 
 /*E-learning | benefits*/
