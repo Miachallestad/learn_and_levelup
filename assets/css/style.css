@@ -20,6 +20,10 @@ h1 {
     letter-spacing: 0.1em;
 }
 
+.welcome-heading {
+    font-size: 40px;
+}
+
 p {
     font-family: "Roboto light", sans-serif; 
     color: black;
