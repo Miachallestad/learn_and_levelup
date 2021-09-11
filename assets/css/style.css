@@ -4,6 +4,10 @@
     min-height: 23vh;
 }
 
+.alt-blue-background {
+    background-color: #013040;
+}
+
 .offwhite-background {
     background-color:#F7F7F5;
 }
@@ -56,6 +60,12 @@ h3 {
 
 body {
     font-family: 'Roboto Light', sans-serif;
+}
+
+.price-examples li {
+    font-family: "Roboto light", sans-serif; 
+    color: white;
+    font-size: 18px;
 }
 
 .footer-text {
@@ -208,6 +218,12 @@ body {
     font-size: 250px;
     color: green;
     margin-top: -45%;
+}
+
+.price-examples {
+    border-style:solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 /*Footer*/
@@ -845,6 +861,17 @@ body {
 
     p {
         font-size: 24px;
+    }
+
+    .center-icon {
+        font-size: 250px;
+        color: green;
+        margin-top: -45%;
+        display: none;
+    }
+
+    .center-icon-div {
+        width: 30px;
     }
 
 
