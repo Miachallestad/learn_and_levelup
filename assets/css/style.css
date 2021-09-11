@@ -65,7 +65,11 @@ body {
     border-color: #895536;
 }
     
-
+.btn-primary-green{
+    background-color: #048664;
+    border-color: #048664;
+    color: white;
+}
 
 
 /*Navigation*/
@@ -159,18 +163,29 @@ body {
 
 .contact-and-visit-container {
     background-color:white;
-    height: 100vh;
 }
 
 .contact-information {
     background-color: #895536;
     width: 65%;
+    height: 320px;
 }
+
 
 .visit-information {
     background-color: #002A38;
     width: 65%;
     height: 425px;
+}
+
+.visit-image-section {
+    margin-top: -4%;
+}
+
+.cwfkp-info {
+    border-style: dotted;
+    border-color: #048664; 
+    border-width: 5px;
 }
 
 /*E-learning | benefits*/
