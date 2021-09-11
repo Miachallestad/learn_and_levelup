@@ -192,7 +192,7 @@ body {
 
 /*E-learning | benefits*/
 .block-divider {
-    width: 200px;
+    width: 100%;
     height: 2px;
     border: 0;
     background-color: #895536;
@@ -201,6 +201,16 @@ body {
 .icon-styling-benefits-elearning {
     font-size: 70px;
     color: #895536;
+}
+
+.center-icon {
+    font-size: 250px;
+    color: #895536;
+    margin-top: -10%;
+}
+
+.benefits-div {
+    margin-top: -15%;
 }
 
 /*Footer*/
