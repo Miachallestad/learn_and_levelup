@@ -4,6 +4,15 @@
     min-height: 23vh;
 }
 
+.offwhite-background {
+    background-color:#F7F7F5;
+}
+
+.white-background {
+    background-color: white;
+}
+
+
 /*Headings*/
 
 .section-heading {
@@ -19,6 +28,7 @@ h1 {
     font-size: 17px;
     letter-spacing: 0.1em;
 }
+
 
 .welcome-heading {
     font-size: 40px;
@@ -140,15 +150,11 @@ body {
     border-color:#895536;
 }
 
-/*Products % services*/
+/*Products & services*/
 
 .icon-styling {
     font-size: 50px;
     color: #002A38;
-}
-
-.products-services-background {
-    background-color: #F7F7F5;
 }
 
 .products-services-icon-background {
@@ -160,10 +166,6 @@ body {
 
 
 /*Contact & visit*/
-
-.contact-and-visit-container {
-    background-color:white;
-}
 
 .contact-information {
     background-color: #895536;
