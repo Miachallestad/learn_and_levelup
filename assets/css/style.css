@@ -208,10 +208,6 @@ body {
     margin-top: -45%;
 }
 
-.benefits-div {
-    margin-top: -10%;
-}
-
 /*Footer*/
 
 .social-links i {
@@ -319,6 +315,10 @@ body {
         color:white;
         font-size: 20px;
         letter-spacing: 0.1em;
+    }
+
+    .benefits-div {
+        margin-top: -10%;
     }
 
 }
