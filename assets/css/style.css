@@ -16,6 +16,10 @@
     background-color: white;
 }
 
+.cognac-background {
+    background-color: #895536;
+}
+
 
 /*Headings*/
 
@@ -36,6 +40,10 @@ h1 {
 
 .welcome-heading {
     font-size: 40px;
+}
+
+.price-examles-heading {
+    font-size: 27px;
 }
 
 p {
@@ -220,6 +228,8 @@ body {
     margin-top: -45%;
 }
 
+/*Prices*/
+
 .price-examples {
     border-style:solid;
     border-color: white;
@@ -288,6 +298,7 @@ body {
     .block-divider {
         width: 275px;
     }
+
 }
 
 @media only screen and (min-width:768px) {
@@ -357,6 +368,14 @@ body {
 
     p {
         font-size: 14px;
+    }
+
+    .section-heading {
+        font-size: 27px;
+    }
+
+    .price-examles-heading {
+        font-size: 20px;
     }
 
 }
