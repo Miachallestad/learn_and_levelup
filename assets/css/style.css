@@ -209,6 +209,25 @@ body {
 }
 
 /*E-learning | benefits*/
+
+.hero-image-elearning {
+    background: url("../images/elearning_hero.jpg") no-repeat center center;  
+    width: auto;
+    height: 94vh;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .block-divider {
     width: 100%;
     margin: 0 auto;
