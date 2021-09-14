@@ -38,7 +38,7 @@
 .call-out-heading {
     color:white;
     font-family: "Roboto Light", sans-serif; 
-    font-size: 20px;
+    font-size: 33px;
     letter-spacing: 0.1em;
 }
 
@@ -47,6 +47,11 @@
     font-size: 25px;
     letter-spacing: 0.1rem;
     color: #895536;
+}
+
+.callout-text {
+    font-family: "Roboto Condensed", sans-serif; 
+    font-size: 20px;
 }
 
 h1 {
@@ -171,11 +176,6 @@ body {
     align-items: center;
 }
 
-
-.callout-text {
-    font-size: 22px;
-}
-
 .btn-outline-primary {
     color:#895536;
     border-color:#895536;
@@ -200,15 +200,11 @@ body {
 
 .contact-information {
     background-color: #895536;
-    width: 65%;
-    height: 320px;
 }
 
 
 .visit-information {
     background-color: #002A38;
-    width: 65%;
-    height: 425px;
 }
 
 .visit-image-section {
@@ -392,6 +388,21 @@ body {
         letter-spacing: 0.1em;
     }
 
+    .callout-text {
+        font-size: 22px;
+    }
+
+    .contact-information {
+        width: 65%;
+        height: 320px;
+    }
+    
+    
+    .visit-information {
+        width: 65%;
+        height: 425px;
+    }
+
     .benefits-div {
         margin-top: -10%;
     }
@@ -405,7 +416,7 @@ body {
 @media only screen and (device-width: 280px)
     and (device-height: 653px) {
     .call-out-heading {
-        font-size: 24px;  
+        font-size: 26px;  
     }
 
     .callout-text {
@@ -413,7 +424,7 @@ body {
     }
 
     .hero-image {
-        height: 50vh;
+        height: 100vh;
     }
 
     p {
@@ -455,7 +466,7 @@ body {
     }
 
     .hero-image {
-        height: 56vh;
+        height: 100vh;
     }
 
     .block-divider {
@@ -492,7 +503,7 @@ body {
 @media only screen and (device-width: 360px)
     and (device-height: 640px) {
     .hero-image {
-        height: 65vh;
+        height: 95vh;
     }
 }
 
