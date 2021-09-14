@@ -42,6 +42,10 @@
     letter-spacing: 0.1em;
 }
 
+.call-out-heading-chapters {
+    font-size: 30px;
+}
+
 .section-heading {
     font-family: "Roboto", sans-serif; 
     font-size: 25px;
@@ -379,6 +383,18 @@ body {
 
     .call-out-heading {
         font-size: 100px;
+    }
+
+    .call-out-heading-chapters {
+        font-size: 70px;
+        color: white;
+    }
+
+    .section-heading {
+        font-family: "Roboto", sans-serif; 
+        font-size: 50px;
+        letter-spacing: 0.1rem;
+        color: #895536;
     }
 
     h2 {
