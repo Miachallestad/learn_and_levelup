@@ -4,6 +4,10 @@
     min-height: 23vh;
 }
 
+.blue-transparent-background {
+    background-color: #002A38;
+}
+
 .alt-blue-background {
     background-color: #013040;
 }
@@ -20,12 +24,27 @@
     background-color: #895536;
 }
 
+.heading-background {
+    background-color: rgba(0, 42, 56, 0.9);
+}
+
+.intro-container {
+    height: 100vh;
+}
+
 
 /*Headings*/
 
+.call-out-heading {
+    color:white;
+    font-family: "Roboto Light", sans-serif; 
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
 .section-heading {
     font-family: "Roboto", sans-serif; 
-    font-size: 40px;
+    font-size: 25px;
     letter-spacing: 0.1rem;
     color: #895536;
 }
@@ -130,7 +149,7 @@ body {
 .hero-image {
     background: url("../images/kugghjul_mobil.jpg") no-repeat center center;  
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -152,15 +171,9 @@ body {
     align-items: center;
 }
 
-.call-out-heading {
-    color:white;
-    font-family: "Roboto Light", sans-serif; 
-    font-size: 30px;
-    letter-spacing: 0.1em;
-}
 
-.teaser-heading-container {
-    height: 24vh;
+.callout-text {
+    font-size: 22px;
 }
 
 .btn-outline-primary {
@@ -324,7 +337,7 @@ body {
     .hero-image {
         background: url("../images/kugghjul_xl.jpg") no-repeat center center;  
         width: 100%;
-        height: 70vh;
+        height: 100vh;
         position: relative;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -358,6 +371,20 @@ body {
 }
 
 @media only screen and (min-width:992px) {
+    .hero-image {
+        width: 100%;
+        height: 95vh;
+        position: relative;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+    }
+
+    .call-out-heading {
+        font-size: 100px;
+    }
+
     h2 {
         font-family: "Roboto Condensed", sans-serif;  
         color:white;
@@ -378,7 +405,11 @@ body {
 @media only screen and (device-width: 280px)
     and (device-height: 653px) {
     .call-out-heading {
-        font-size: 22px;  
+        font-size: 24px;  
+    }
+
+    .callout-text {
+        font-size: 16px;
     }
 
     .hero-image {
@@ -386,11 +417,15 @@ body {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .section-heading {
-        font-size: 27px;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
     }
 
     .price-examles-heading {
@@ -405,9 +440,6 @@ body {
         height: 81vh;
     }
 
-    .teaser-heading-container {
-        height: 50vh;
-    }
 
     .blue-background {
         background-color: #002A38;
@@ -426,10 +458,6 @@ body {
         height: 56vh;
     }
 
-    .teaser-heading-container {
-        height: 35vh;
-    }
-
     .block-divider {
         width: 235px;
     }
@@ -441,10 +469,6 @@ body {
 
     .hero-image {
         height: 49vh;
-    }
-
-    .teaser-heading-container {
-        height: 35vh;
     }
 
     h2 {
@@ -470,20 +494,12 @@ body {
     .hero-image {
         height: 65vh;
     }
-
-    .teaser-heading-container {
-        height: 27vh;
-    }
 }
 
 @media only screen and (device-width: 640px)
     and (device-height: 360px) {
     .hero-image {
         height: 52vh;
-    }
-
-    .teaser-heading-container {
-        height: 35vh;
     }
 
     h1 {
@@ -513,9 +529,9 @@ body {
         .hero-image {
             height: 65vh;
         }
-    
-        .teaser-heading-container {
-            height: 27vh;
+
+        .call-out-heading {
+            font-size: 50px;
         }
     
 }
@@ -524,10 +540,6 @@ body {
     and (device-height: 375px) {
     .hero-image {
         height: 52vh;
-    }
-    
-    .teaser-heading-container {
-        height: 34vh;
     }
 
     .call-out-heading {
@@ -552,9 +564,6 @@ body {
         height: 66vh;
     }
 
-    .teaser-heading-container {
-        height: 28vh;
-    }
 
     h1 {
         font-family: "Roboto", sans-serif; 
@@ -578,9 +587,6 @@ body {
         height: 53vh;
     }
 
-    .teaser-heading-container {
-        height: 33vh;
-    }
 
     h1 {
         font-family: "Roboto", sans-serif; 
@@ -601,10 +607,6 @@ body {
         font-size: 40px;  
         }
 
-    .teaser-heading-container {
-        height: 29vh;
-    }
-
    
     .block-divider {
         width: 300px;
@@ -616,10 +618,6 @@ body {
     and (device-height: 411px) {
     .hero-image {
         height: 58vh;
-    }
-
-    .teaser-heading-container {
-        height: 29vh;
     }
 
     .blue-background {
@@ -642,10 +640,6 @@ body {
         height: 64vh;
     }
 
-    .teaser-heading-container {
-        height: 29vh;
-    }
-
     .block-divider {
         width: 313px;
     }
@@ -659,10 +653,6 @@ body {
 
     .call-out-heading {
         font-size: 45px;  
-    }
-
-    .teaser-heading-container {
-        height: 29vh;
     }
 
     .blue-background {
@@ -691,9 +681,6 @@ body {
         height: 64vh;
     }
 
-    .teaser-heading-container {
-        height: 30vh;
-    }
 
     h1 {
         font-family: "Roboto", sans-serif; 
@@ -714,9 +701,6 @@ body {
         height: 57vh;
     }
 
-    .teaser-heading-container {
-        height: 30vh;
-    }
 }
 
 @media only screen and (device-width: 540px)
@@ -730,9 +714,6 @@ body {
         width: 415px;
     }
 
-    .teaser-heading-container {
-        height: 23vh;
-    }
 
     h1 {
         font-family: "Roboto", sans-serif; 
@@ -752,10 +733,6 @@ body {
         height: 67vh;
     }
 
-    .teaser-heading-container {
-        height: 23vh;
-    }
-
     .blue-background {
         background-color: #002A38;
         min-height: 35vh;
@@ -773,9 +750,6 @@ body {
         height: 70vh;
     }
 
-    .teaser-heading-container {
-        height: 25vh;
-    }
 
     h1 {
         font-family: "Roboto", sans-serif; 
@@ -808,10 +782,6 @@ body {
             height: 70vh;
         }
     
-        .teaser-heading-container {
-            height: 23vh;
-        }
-
     h1 {
         font-family: "Roboto", sans-serif; 
         color: #895536;
@@ -841,10 +811,6 @@ body {
 
     .hero-image {
         height: 75vh;
-    }
-
-    .teaser-heading-container {
-        height: 22vh;
     }
 
     h1 {
@@ -879,9 +845,6 @@ body {
         height: 70vh;
     }
 
-    .teaser-heading-container {
-        height: 25vh;
-    }
 
     h1 {
         font-family: "Roboto", sans-serif; 
