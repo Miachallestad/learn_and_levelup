@@ -234,6 +234,10 @@ body {
 
 /*E-learning | intro*/
 
+.statistics-container {
+    height:30vh;
+}
+
 .block-divider {
     width: 100%;
     margin: 0 auto;
