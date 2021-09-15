@@ -28,10 +28,6 @@
     background-color: rgba(0, 42, 56, 0.9);
 }
 
-.intro-container {
-    height: 100vh;
-}
-
 
 /*Headings*/
 
@@ -235,11 +231,8 @@ body {
     
 }
 
-.heading-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+/*E-learning | intro*/
 
 .block-divider {
     width: 100%;
