@@ -28,6 +28,10 @@
     background-color: rgba(0, 42, 56, 0.9);
 }
 
+.heading-background-cognac {
+    background-color: rgba(35, 22, 15, 0.8);
+}
+
 
 /*Headings*/
 
@@ -269,6 +273,19 @@ body {
 
 .video-hero-image {
     background: url("../images/video_hero.jpg") no-repeat center center;  
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+/*Samarbeta | landing*/
+
+.samarbeta-hero-image {
+    background: url("../images/samarbeta_hero.jpg") no-repeat center center;  
     width: 100%;
     height: 100vh;
     position: relative;
