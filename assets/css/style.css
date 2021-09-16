@@ -295,6 +295,19 @@ body {
      background-size: cover;
 }
 
+/*Onboarding | landing*/
+
+.onboarding-hero-image {
+    background: url("../images/onboarding_hero.jpg") no-repeat center center;  
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
 /*Footer*/
 
 .social-links i {
