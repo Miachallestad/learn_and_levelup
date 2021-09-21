@@ -53,6 +53,20 @@
     color: #895536;
 }
 
+.section-heading-black {
+    font-family: "Roboto", sans-serif; 
+    font-size: 40px;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.callout-heading {
+    font-family: "Roboto Condensed", sans-serif; 
+    font-size: 28px;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
 .callout-text {
     font-family: "Roboto Condensed", sans-serif; 
     font-size: 20px;
@@ -114,6 +128,10 @@ body {
 
 .text-color-white {
     color: white;
+}
+
+.text-color-black {
+    color: black;
 }
 
 .btn-primary {
