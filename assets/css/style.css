@@ -60,6 +60,13 @@
     color: black;
 }
 
+.section-heading-white {
+    font-family: "Roboto", sans-serif; 
+    font-size: 40px;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
 .callout-heading {
     font-family: "Roboto Condensed", sans-serif; 
     font-size: 28px;
