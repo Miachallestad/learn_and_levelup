@@ -79,6 +79,13 @@
     font-size: 20px;
 }
 
+.teaser-callout-heading {
+    color:white;
+    font-family: "Roboto Light", sans-serif; 
+    font-size: 35px;
+    letter-spacing: 0.1em;
+}
+
 h1 {
     font-family: "Roboto", sans-serif; 
     color: #895536;
@@ -209,6 +216,9 @@ body {
     color:#895536;
     border-color:#895536;
 }
+
+/*Teasers*/
+
 
 /*Products & services*/
 
@@ -453,6 +463,10 @@ body {
     .call-out-heading-chapters {
         font-size: 70px;
         color: white;
+    }
+
+    .callout-text {
+        font-size: 30px;
     }
 
     .section-heading {
