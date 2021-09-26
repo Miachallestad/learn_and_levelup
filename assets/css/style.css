@@ -332,6 +332,13 @@ body {
      background-size: cover;
 }
 
+.circle-container {
+    background-color: #895536;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
 /*Onboarding | landing*/
 
 .onboarding-hero-image {
