@@ -152,7 +152,13 @@ body {
     background-color: #895536;
     border-color: #895536;
 }
-    
+
+.btn-outline-primary:hover {
+    background-color: #895536;
+    border-color: #895536;
+    color: white;
+}
+
 .btn-primary-green{
     background-color: #048664;
     border-color: #048664;
