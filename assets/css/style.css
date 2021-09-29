@@ -117,9 +117,8 @@ h2 {
 
 h3 {
     font-family: "Roboto", sans-serif;  
-    color:#895536;
-    font-size: 20px;
-    letter-spacing: 0.1em;
+    color:black;
+    font-size: 25px;
 }
 
 body {
@@ -148,12 +147,30 @@ body {
     color: black;
 }
 
+.icon-styling {
+    font-size: 60px;
+}
+
 .btn-primary {
     background-color: #895536;
     border-color: #895536;
 }
 
-.btn-outline-primary:hover {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+
+.btn-primary:active:focus {
+    background-color: #895536;
+    border-color: #895536;
+    color: black;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus,
+
+.btn-outline-primary:active:focus {
     background-color: #895536;
     border-color: #895536;
     color: white;
