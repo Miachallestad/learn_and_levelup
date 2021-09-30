@@ -57,6 +57,7 @@
     font-family: "Roboto", sans-serif; 
     font-size: 40px;
     letter-spacing: 0.1rem;
+    font-weight: 400;
     color: white;
 }
 
@@ -102,10 +103,10 @@ p {
 }
 
 h2 {
-    font-family: "Roboto condensed", sans-serif;  
+    font-family: "Roboto Condensed", sans-serif; 
     color:black;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.1em;
 } 
 
@@ -326,7 +327,7 @@ body {
 /*Video | landing*/
 
 .video-hero-image {
-    background: url("../images/video_hero.jpg") no-repeat center center;  
+    background: url("../images/video_hero_2.jpg") no-repeat center center;  
     width: 100%;
     height: 100vh;
     position: relative;
