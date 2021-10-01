@@ -49,6 +49,7 @@
 .section-heading {
     font-family: "Roboto", sans-serif; 
     font-size: 25px;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     color: black;
 }
