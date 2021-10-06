@@ -282,7 +282,7 @@ body {
 .hero-image-elearning {
     background: url("../images/elearning_hero.jpg") no-repeat center center;  
     width: auto;
-    height: 94vh;
+    height: 100vh;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
