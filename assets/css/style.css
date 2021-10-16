@@ -650,7 +650,7 @@ body {
         }
 
         .call-out-heading {
-            font-size: 50px;
+            font-size: 35px;
         }
     
 }
@@ -866,16 +866,12 @@ body {
         height: 70vh;
     }
 
-
-    h1 {
-        font-family: "Roboto", sans-serif; 
-        color: #895536;
-        font-size: 28px;
-        letter-spacing: 0.1em;
+    .section-heading {
+        font-size: 35px;  
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 28px;
     }
 
     p {
@@ -891,20 +887,14 @@ body {
 @media only screen and (device-width: 1024px)
     and (device-height: 768px) {
     
-        .hero-image {
-            height: 70vh;
-        }
+    .hero-image {
+        height: 70vh;
+    }
     
-    h1 {
-        font-family: "Roboto", sans-serif; 
-        color: #895536;
-        font-size: 26px;
-        letter-spacing: 0.1em;
+    .section-heading {
+        font-size: 35px;  
     }
 
-    h2 {
-        font-size: 18px;
-    }
 
     p {
         font-size: 22px;
