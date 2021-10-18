@@ -43,6 +43,7 @@
 }
 
 .call-out-heading-chapters {
+    color:white;
     font-size: 30px;
 }
 
@@ -83,7 +84,6 @@
 
 h1 {
     font-family: "Roboto", sans-serif; 
-    color: #895536;
     font-size: 17px;
     letter-spacing: 0.1em;
 }
@@ -413,10 +413,7 @@ body {
 
 @media only screen and (min-width:375px) {
     h1 {
-        font-family: "Roboto", sans-serif; 
-        color: #895536;
         font-size: 20px;
-        letter-spacing: 0.1em;
     }
 
     h2 {
@@ -628,6 +625,10 @@ body {
     .hero-image {
         height: 100vh;
     }
+
+    .call-out-heading-chapters {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (device-width: 640px)
@@ -636,8 +637,8 @@ body {
         height: 100vh;
     }
 
-  .section-heading {
-      font-size: 40px;
+    .section-heading {
+        font-size: 40px;
   }
 
     .blue-background {
