@@ -351,6 +351,17 @@ body {
 
 /*Contact & visit*/
 
+.hero-image-contact {
+    background: url("../images/visit_hero.jpg") no-repeat center center;  
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .contact-information {
     background-color: #895536;
 }
