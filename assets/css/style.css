@@ -260,23 +260,6 @@ body {
 }
 
 
-/*Contact & visit*/
-
-.contact-information {
-    background-color: #895536;
-}
-
-
-.visit-information {
-    background-color: #002A38;
-}
-
-.cwfkp-info {
-    border-style: dotted;
-    border-color: #048664; 
-    border-width: 5px;
-}
-
 /*E-learning | benefits*/
 
 .hero-image-elearning {
@@ -317,13 +300,6 @@ body {
     margin-top: -45%;
 }
 
-/*Prices*/
-
-.price-examples {
-    border-style:solid;
-    border-color: white;
-    border-width: 1px;
-}
 
 /*Video | landing*/
 
@@ -370,9 +346,24 @@ body {
     -o-background-size: cover;
      background-size: cover;
 }
-/*About the company*/
-.image-background {
 
+
+
+/*Contact & visit*/
+
+.contact-information {
+    background-color: #895536;
+}
+
+
+.visit-information {
+    background-color: #002A38;
+}
+
+.cwfkp-info {
+    border-style: dotted;
+    border-color: #048664; 
+    border-width: 5px;
 }
 
 /*Footer*/
@@ -515,7 +506,7 @@ body {
     
     .visit-information {
         width: 65%;
-        height: 425px;
+        height: 320px;
     }
 
     .benefits-div {
