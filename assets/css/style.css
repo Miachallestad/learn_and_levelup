@@ -358,7 +358,7 @@ body {
 .hero-image-contact {
     background: url("../images/visit_hero.jpg") no-repeat center center;  
     width: 100%;
-    height: 65vh;
+    height: 100vh;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -486,6 +486,17 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
          background-size: cover;
+    }
+
+    .hero-image-contact {
+        background: url("../images/visit_hero.jpg") no-repeat center center;  
+        width: 100%;
+        height: 65vh;
+        position: relative;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .call-out-heading {
