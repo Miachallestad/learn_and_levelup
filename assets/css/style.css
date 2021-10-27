@@ -180,12 +180,6 @@ body {
     color: white;
 }
 
-.btn-primary-green{
-    background-color: #048664;
-    border-color: #048664;
-    color: white;
-}
-
 
 /*Navigation*/
 
@@ -384,10 +378,14 @@ body {
 /*Footer*/
 
 .social-links i {
-    font-size: 27px;
+    width: 35px;
+    height: 35px;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
     color: #0A66C2;
     background-color: white;
-    border-radius: 0%;
+    border-radius: 50%;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -395,6 +393,10 @@ body {
 }
 
 .social-links i:hover {
+    color: #895536;
+}
+
+a:hover {
     color: #895536;
 }
 
