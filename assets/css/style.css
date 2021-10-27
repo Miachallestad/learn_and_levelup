@@ -202,7 +202,14 @@ body {
 }
 
 .navbar .navbar-toggler {
-    border: 0;
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .navbar-nav {
