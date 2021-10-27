@@ -25,7 +25,7 @@
 }
 
 .light-blue-background {
-    background-color: #d4b59d;
+    background-color: #C5CBC1;
 }
 
 .heading-background {
@@ -202,7 +202,7 @@ body {
 }
 
 .navbar .navbar-toggler {
-    border: none !important;
+    border: none;
 }
 
 .navbar-toggler:focus,
