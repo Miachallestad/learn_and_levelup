@@ -475,7 +475,7 @@ a:hover {
 
     .hero-company-image {
         background: url("../images/kugghjul_xl.jpg") no-repeat center center;  
-        height: 70vh;
+        height: 75vh;
     }
 
     .call-out-heading {
@@ -585,6 +585,7 @@ a:hover {
         height: 100vh;
     }
 
+
     p {
         font-size: 16px;
     }
@@ -611,6 +612,14 @@ a:hover {
 
     .call-out-heading {
         font-size: 50px;
+    }
+
+    .hero-company-image {
+        height: 100vh;
+    }
+
+    .call-out-heading-chapters {
+        font-size: 40px;
     }
 
 
@@ -646,6 +655,14 @@ a:hover {
 
     .call-out-heading {
         font-size: 50px;
+    }
+
+    .hero-company-image {
+        height: 100vh;
+    }
+
+    .call-out-heading-chapters {
+        font-size: 40px;
     }
 
     .section-heading {
@@ -684,8 +701,16 @@ a:hover {
         height: 100vh;
     }
 
+    .call-out-heading {
+        font-size: 50px;
+    }
+
+    .hero-company-image {
+        height: 100vh;
+    }
+
     .section-heading {
-        font-size: 40px;
+        font-size: 35px;
   }
 
     .blue-background {
@@ -694,7 +719,7 @@ a:hover {
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 24px;
     }
   
 }
@@ -715,11 +740,19 @@ a:hover {
 @media only screen and (device-width: 667px)
     and (device-height: 375px) {
     .hero-image {
-        height: 52vh;
+        height: 100vh;
     }
 
     .call-out-heading {
         font-size: 50px;
+    }
+
+    .hero-company-image {
+        height: 100vh;
+    }
+
+    .call-out-heading-chapters {
+        font-size: 40px;
     }
 
     .section-heading {
@@ -764,7 +797,15 @@ a:hover {
     and (device-height: 375px) {
 
     .call-out-heading {
-        font-size: 40px;  
+        font-size: 50px;  
+    }
+
+    .call-out-heading-chapters {
+        font-size: 45px;
+    }
+
+    .hero-company-image {
+        height: 100vh;
     }
 
     .hero-image {
@@ -811,12 +852,24 @@ a:hover {
         height: 100vh;
     }
 
+    .hero-company-image {
+        height: 100vh;
+    }
+
+    .call-out-heading {
+        font-size: 55px;
+    }
+
+    .call-out-heading-chapters {
+        font-size: 45px;
+    }
+
     .section-heading {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .blue-background {
@@ -832,6 +885,35 @@ a:hover {
         }
 
     }
+
+    @media only screen and (device-width: 823px)
+    and (device-height: 411px) {
+
+    .call-out-heading {
+        font-size: 60px;  
+    }
+
+    .call-out-heading-chapters {
+        font-size: 50px;  
+    }
+
+    .hero-company-image {
+        height: 100vh;
+    }
+
+    .section-heading {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    .hero-image {
+        height: 100vh;
+    }
+
+}
 
 @media only screen and (device-width: 414px)
     and (device-height: 736px) {
@@ -856,6 +938,14 @@ a:hover {
     }
 
     .call-out-heading {
+        font-size: 60px;
+    }
+
+    .hero-company-image {
+        height: 100vh;
+    }
+
+    .call-out-heading-chapters {
         font-size: 50px;
     }
 
@@ -876,26 +966,7 @@ a:hover {
 
 }
 
-@media only screen and (device-width: 823px)
-    and (device-height: 411px) {
 
-    .call-out-heading {
-        font-size: 50px;  
-    }
-
-    .section-heading {
-        font-size: 35px;
-    }
-    
-    h2 {
-        font-size: 20px;
-    }
-
-    .hero-image {
-        height: 100vh;
-    }
-
-}
 
 @media only screen and (device-width: 540px)
     and (device-height: 720px) {
@@ -935,25 +1006,30 @@ a:hover {
         background-color: #002A38;
         min-height: 35vh;
     }
+    
 }
 
 @media only screen and (device-width: 768px)
     and (device-height: 1024px) {
 
     .call-out-heading {
-        font-size: 60px;  
+        font-size: 65px;  
     }
 
     .hero-image {
-        height: 60vh;
+        height: 70vh;
+    }
+
+    .call-out-heading-chapters {
+        font-size: 60px;  
     }
 
     .section-heading {
-        font-size: 35px;  
+        font-size: 35px;
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     p {
