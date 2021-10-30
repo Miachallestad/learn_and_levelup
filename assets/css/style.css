@@ -618,6 +618,10 @@ a:hover {
         height: 100vh;
     }
 
+    .hero-image-contact {
+        height: 110vh;
+    }
+
     .call-out-heading-chapters {
         font-size: 40px;
     }
@@ -655,6 +659,10 @@ a:hover {
 
     .call-out-heading {
         font-size: 50px;
+    }
+
+    .hero-company-image {
+        height: 100vh;
     }
 
     .hero-company-image {
@@ -1016,8 +1024,8 @@ a:hover {
         font-size: 65px;  
     }
 
-    .hero-image {
-        height: 70vh;
+    .hero-image-contact {
+        height: 60vh;
     }
 
     .call-out-heading-chapters {
@@ -1026,6 +1034,10 @@ a:hover {
 
     .section-heading {
         font-size: 35px;
+    }
+
+    .hero-image {
+        height: 70vh;
     }
 
     h2 {
@@ -1040,6 +1052,13 @@ a:hover {
         width: 600px;
     }
 
+}
+
+@media only screen and (device-width: 1024px)
+    and (device-height: 600px) {
+
+.hero-image-contact {
+    height: 100vh;
 }
 
 @media only screen and (device-width: 1024px)
@@ -1073,6 +1092,10 @@ a:hover {
 
     .hero-image {
         height: 75vh;
+    }
+
+    .hero-image-contact {
+        height: 45vh;
     }
 
 
