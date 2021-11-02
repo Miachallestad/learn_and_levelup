@@ -29,7 +29,7 @@
 }
 
 .heading-background {
-    background-color: rgba(0, 42, 56, 0.9);
+    background-color: rgba(0, 42, 56, 1);
 }
 
 .heading-background-cognac {
@@ -248,12 +248,8 @@ body {
     border-color:#895536;
 }
 
-/*Teasers*/
-
 
 /*Products & services*/
-
-
 
 .icon-styling {
     font-size: 50px;
@@ -268,7 +264,7 @@ body {
 }
 
 
-/*E-learning | benefits*/
+/*E-learning | intro*/
 
 .hero-image-elearning {
     background: url("../images/elearning_hero.jpg") no-repeat center center;  
@@ -281,13 +277,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     
-}
-
-
-/*E-learning | intro*/
-
-.statistics-container {
-    height:30vh;
 }
 
 .block-divider {
@@ -566,10 +555,6 @@ a:hover {
     }
 
 }
-
-
-
-
 
 @media only screen and (device-width: 280px)
     and (device-height: 653px) {
@@ -857,10 +842,7 @@ a:hover {
 
     h2 {
         font-size: 20px;
-    }
-
-
-   
+    }  
 
 }
 
@@ -992,7 +974,7 @@ a:hover {
 
     }
 
-    @media only screen and (device-width: 823px)
+@media only screen and (device-width: 823px)
     and (device-height: 411px) {
 
     .call-out-heading {
@@ -1022,7 +1004,6 @@ a:hover {
 }
 
 
-
 @media only screen and (device-width: 411px)
     and (device-height: 823px) {
     .hero-image {
@@ -1034,8 +1015,20 @@ a:hover {
 @media only screen and (device-width: 540px)
     and (device-height: 720px) {
 
-    .hero-image {
-        height: 70vh;
+    .call-out-heading {
+        font-size: 50px;  
+    }
+
+    .call-out-heading-chapters {
+        font-size: 50px;  
+    }
+
+    .section-heading {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 18px;
     }
 
     .block-divider {
@@ -1049,6 +1042,7 @@ a:hover {
         font-size: 18px;
         letter-spacing: 0.1em;
     }
+
     p {
         font-size: 16px;
     }
@@ -1060,9 +1054,18 @@ a:hover {
     .call-out-heading {
         font-size: 50px;
     }
+
+
+    .call-out-heading-chapters {
+        font-size: 50px;  
+    }
+
+    .section-heading {
+        font-size: 35px;
+    }
     
-    .hero-image {
-        height: 63vh;
+    h2 {
+        font-size: 20px;
     }
 
     .blue-background {
@@ -1115,6 +1118,7 @@ a:hover {
 .hero-image-contact {
     height: 100vh;
 }
+    }
 
 @media only screen and (device-width: 1024px)
     and (device-height: 768px) {
