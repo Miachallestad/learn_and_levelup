@@ -43,7 +43,7 @@
     color:white;
     font-family: "Roboto Light", sans-serif; 
     font-size: 33px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
 }
 
 .call-out-heading-chapters {
@@ -471,7 +471,7 @@ a:hover {
         color:white;
         font-family: "Roboto Light", sans-serif; 
         font-size: 60px;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.15em;
     }
 
     h1 {
@@ -1115,10 +1115,23 @@ a:hover {
 @media only screen and (device-width: 1024px)
     and (device-height: 600px) {
 
+.call-out-heading {
+    font-size: 70px;
+}
+
+.section-heading {
+    font-size: 35px;  
+}
+
+h2 {
+    font-size: 22px;
+}
+
 .hero-image-contact {
     height: 100vh;
 }
     }
+
 
 @media only screen and (device-width: 1024px)
     and (device-height: 768px) {
